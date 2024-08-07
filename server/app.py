@@ -15,9 +15,7 @@ CORS(app)
 
 YOUR_POSTGRES_PASSWORD = "postgres"
 connection_string = f"postgresql://postgres:{YOUR_POSTGRES_PASSWORD}@localhost/petcare"
-engine = sqlalchemy.create_engine(
-    "postgresql://postgres:postgres@localhost/petcare"
-)
+engine = sqlalchemy.create_engine(connection_string)
 
 db = engine.connect()
 
@@ -417,5 +415,5 @@ def deleteUsers(username):
 
 
 if __name__ == '__main__':  # If the script that was run is this script (we have not been imported)
-    app.run(host='172.25.77.198', debug=True)  # Start the server
-    # app.run(debug=True) 
+    # app.run(host='172.25.77.198', debug=True)  # Start the server
+    app.run(debug=True) 

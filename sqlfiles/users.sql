@@ -1,4 +1,4 @@
-INSERT INTO users (username, email, password) VALUES ('admin','admin@gmail.com','$2b$12$0b1ME/724RJa0LlOtZjWMOmO7DFa7abbc5PV3HgYciQ6eSQhZ2y7e');
+INSERT INTO users (username, email, password) VALUES ('admin','admin@gmail.com','pass1234');
 INSERT INTO users (username, email, password) VALUES ('jiaxin','jiaxin@gmail.com','$2b$12$h2Y.vJRL/vHuVecFiFZrju.k/X.hcODGEizwZxVTz.nOLJSd5zz3W');
 INSERT INTO users (username, email, password) VALUES ('user10','user10@gmail.com','$2b$12$8Yf4LhChmRaKJKHqMt1JF.9Z9osTqmgFFBwWuVd/G0RMLJveT4peu');
 INSERT INTO users (username, email, password) VALUES ('user11','user11@gmail.com','$2b$12$IRQ46awG.4drDe7tX79hw.26iik7e8enCvSG919R2ZCpK6zsm0eUu');
